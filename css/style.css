@@ -4,6 +4,16 @@
   margin: 0; padding: 0;
 }
 
+
+@media screen and (min-width: 650px) {
+  .metro {
+    width: 200px;
+    height: 70px;
+  }
+}
+
+
+
 html{
 	font-family: Roboto,sans-serif;
 }
@@ -18,10 +28,12 @@ body{
 
 .main_info{
 	font-size: 34px;
+	text-align: center;
 	margin-top: 10vh;
 }
 .timer {
   font-size: 60px;
+  text-align: center;
   margin-top: 5vh;
 }
 
@@ -51,8 +63,8 @@ body{
 	border-style: solid;
 	border-color: gray;
 	border-radius: 20px;
-	width: 280px;
-	height: 140px;
+	width: 260px;
+	height: 80px;
 	margin: 0 auto;
 	margin-top: 2vh;
 	cursor: pointer;
@@ -72,4 +84,43 @@ body{
 .metro.changed{
   color: rgba(227, 184, 84, 1);
 	border-color: rgba(227, 184, 84, 1);
+}
+
+
+
+@media screen and (max-width: 650px) {
+  .metro {
+    width: 200px;
+    height: 70px;
+    font-size: 15px;
+  }
+  .metros {
+    width: 450px;
+    
+  }
+}
+
+
+@media screen and (max-width: 476px) {
+  .metro {
+    width: 180px;
+    height: 60px;
+    font-size: 12px;
+  }
+  .metros {
+    width: 400px;
+    
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .metro {
+    width: 150px;
+    height: 50px;
+    font-size: 10px;
+  }
+  .metros {
+    width: 350px;
+    
+  }
 }
