@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+
+html{
+	font-family: Roboto,sans-serif;
+}
+
+body{
+  text-align: center;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+
+.main_info{
+	font-size: 34px;
+	margin-top: 10vh;
+}
+.timer {
+  font-size: 60px;
+  margin-top: 5vh;
+}
+
+
+.metros{
+	display: flex;
+	margin: 0 auto;
+	margin-top: 10vh;
+	width: 600px;
+}
+
+
+
+.metros_up{
+	margin: 0 auto;
+}
+
+
+.metros_down{
+	margin: 0 auto;
+}
+.metro{
+	font-family: Roboto,sans-serif;
+	background-color: black;
+	color: rgba(246, 246, 246, 0.8);
+	font-size: 20px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 20px;
+	width: 280px;
+	height: 140px;
+	margin: 0 auto;
+	margin-top: 2vh;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	transition: border-color 0.3s ease;
+
+}
+
+
+
+
+.metro:hover{
+	color: white;
+	border-color: white;
+}
+
+.metro.changed{
+  color: rgba(227, 184, 84, 1);
+	border-color: rgba(227, 184, 84, 1);
+}
