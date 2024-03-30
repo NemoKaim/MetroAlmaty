@@ -106,3 +106,31 @@ const schedule010 = [
 const schedule011 = [ 
     "-"
 ];
+
+
+
+
+localStorage.setItem('schedule1', JSON.stringify(schedule1));
+localStorage.setItem('schedule2', JSON.stringify(schedule2));
+localStorage.setItem('schedule3', JSON.stringify(schedule3));
+localStorage.setItem('schedule4', JSON.stringify(schedule4));
+localStorage.setItem('schedule5', JSON.stringify(schedule5));
+localStorage.setItem('schedule6', JSON.stringify(schedule6));
+localStorage.setItem('schedule7', JSON.stringify(schedule7));
+localStorage.setItem('schedule8', JSON.stringify(schedule8));
+localStorage.setItem('schedule9', JSON.stringify(schedule9));
+localStorage.setItem('schedule10', JSON.stringify(schedule10));
+localStorage.setItem('schedule11', JSON.stringify(schedule11));
+
+
+localStorage.setItem('schedule01', JSON.stringify(schedule01));
+localStorage.setItem('schedule02', JSON.stringify(schedule02));
+localStorage.setItem('schedule03', JSON.stringify(schedule03));
+localStorage.setItem('schedule04', JSON.stringify(schedule04));
+localStorage.setItem('schedule05', JSON.stringify(schedule05));
+localStorage.setItem('schedule06', JSON.stringify(schedule06));
+localStorage.setItem('schedule07', JSON.stringify(schedule07));
+localStorage.setItem('schedule08', JSON.stringify(schedule08));
+localStorage.setItem('schedule09', JSON.stringify(schedule09));
+localStorage.setItem('schedule010', JSON.stringify(schedule010));
+localStorage.setItem('schedule011', JSON.stringify(schedule011));
