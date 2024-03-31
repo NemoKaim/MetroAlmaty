@@ -88,6 +88,39 @@ body{
 }
 
 
+.ch{
+	font-family: Roboto,sans-serif;
+	background-color: black;
+	color: rgba(246, 246, 246, 0.8);
+	font-size: 12px;
+	border-style: solid;
+	border-color: gray;
+	border-radius: 10px;
+	border-width: 1px;
+	width: 120px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 2vh;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	transition: border-color 0.3s ease;
+
+}
+
+
+
+
+.ch:hover{
+	color: white;
+	border-color: white;
+}
+
+.ch.changed{
+  color: rgba(227, 184, 84, 1);
+	border-color: rgba(227, 184, 84, 1);
+}
+
+
 
 @media screen and (max-width: 650px) {
   .metro {
